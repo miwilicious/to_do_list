@@ -30,12 +30,22 @@ export const AppToDoList = () => {
   localStorage.setItem("toDos", JSON.stringify(toDos));
   return (
     <>
-      <AddToList addToDo={addToList} />
-      <ShowList
-        theToDoList={toDos}
-        remove={removeToDo}
-        toggleToDo={toggleToDo}
-      />
+   
+
+      <div className="row justify-content-center align-items-start py-4">
+        <div className="col-12 col-lg-6 col-xl-5 col-md-10 mb-4 px-4">
+          <AddToList addToDo={addToList} />
+        </div>
+        <div className="col-12 col-lg-6 col-xl-5 col-md-10 mb-4 px-4">
+          <ShowList
+            theToDoList={toDos}
+            remove={removeToDo}
+            toggleToDo={toggleToDo}
+          />
+        </div>
+      </div>
+    
+
     </>
   );
 };

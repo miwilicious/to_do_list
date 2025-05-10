@@ -2,16 +2,40 @@
 
 .playwrite {
   font-family: "Playwrite VN", sans-serif;
-  color:  rgb(194, 62, 117);
+  color: rgb(194, 62, 117);
 }
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+
+}
+
+@media screen and (min-width:601px) and (max-width: 1100px) {
+  h1 {
+    font-size: 35px;
+  }
+
+}
+
+@media screen and (min-width: 1101px) {
+  .bi-balloon-heart {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+}
+
 .bi-balloon-heart {
-  width: 40px;
-  height: 40px;
-}
-#root {
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 20px;
+  height: 20px;
 }
 
 .logo {
@@ -20,9 +44,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -31,6 +57,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -48,4 +75,8 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.pink-card {
+  min-height: 262px;
 }

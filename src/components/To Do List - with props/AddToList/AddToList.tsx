@@ -15,10 +15,11 @@ export const AddToList = (props: IAddToDoProps) => {
     setToDoText("");
   };
 
+  
   return (
-    <div className="card pink-card text-white bg-pink my-4 me-4">
+    <div className="card pink-card text-white bg-pink">
       <div className="card-header">Add To-Do</div>
-      <div className="card-body d-flex flex-column justify-content-between h-100 ">
+      <div className="card-body">
         <form onSubmit={handleSave} className="d-flex flex-column my-auto">
           <input
             className="form-control mb-3"
@@ -32,5 +33,6 @@ export const AddToList = (props: IAddToDoProps) => {
         </form>
       </div>
     </div>
+
   );
 };

@@ -8,11 +8,10 @@ interface IShowToDosProps {
   toggleToDo: (i: number) => void;
 }
 
-export const ShowList = (props: IShowToDosProps) => {
-  return (
-    <div className="card pink-card text-white bg-pink my-4">
-      <div className="card-header">To-Do List</div>
-      <div className="card-body">
+export const ShowList = (props: IShowToDosProps) => (
+  <div className="card pink-card text-white bg-pink">
+    <div className="card-header">To-Do List</div>
+    <div className="card-body">
         {props.theToDoList.length === 0 ? (
           <p className="text-center mt-5 playwrite">There's nothing to do. </p>
         ) : (
@@ -82,5 +81,6 @@ export const ShowList = (props: IShowToDosProps) => {
         )}
       </div>
     </div>
+
+        
   );
-};

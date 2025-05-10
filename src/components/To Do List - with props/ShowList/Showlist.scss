@@ -2,7 +2,7 @@
   background-color: #ffc0cb;
 }
 .pink-card {
-  min-width: 400px !important;
+  min-width: min-content !important;
   .list-group-item {
     color: rgb(194, 62, 117);
     font-size: large;
@@ -17,6 +17,6 @@
   text-decoration: 2px line-through rgb(194, 62, 117);
   color: rgba(194, 62, 117, 0.521);
 }
-.card-header {
-  max-width: 30rem !important;
-}
+// .card-header {
+//   max-width: 30rem !important;
+// }
