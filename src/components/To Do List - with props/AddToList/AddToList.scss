@@ -1,0 +1,29 @@
+.btn-pink {
+  background-color: #fff;
+  padding: 10px 30px;
+  border: 1.5px solid rgb(194, 62, 117);
+  color: rgb(194, 62, 117);
+  font-size: large;
+  font-family: sans-serif;
+}
+input::placeholder {
+  font-family: sans-serif !important;
+  color: #ffc0cb !important;
+}
+.bg-pink {
+  background-color: #ffc0cb;
+}
+.pink-card input {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.card-header {
+  font-size: x-large;
+  font-family: monospace;
+}
+.btn-pink:hover {
+  background-color: rgb(194, 62, 117) !important;
+  border-color: rgb(194, 62, 117) !important;
+  color: #fff;
+}
