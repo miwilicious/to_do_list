@@ -1,6 +1,6 @@
 ## basic-react-todolist
 
-The live application is available <a href="https://basicreactproject.netlify.app/" target="_blank">here</a>
+The application is available at: https://basicreactproject.netlify.app/ 
 
 #### Project Overview
 This project is a simple to-do list application built with React and TypeScript. It provides a user-friendly interface to add, display, toggle completion, and remove to-do items. The state of the to-do list is persisted in the browser's local storage, so the list remains available even after refreshing the page.
